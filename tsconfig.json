@@ -1,0 +1,25 @@
+{
+  "extends": "@chatie/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "lib": [
+      "dom",
+      "esnext",
+    ],
+   },
+  "exclude": [
+    "node_modules/",
+    "dist/",
+    "tests/fixtures/",
+  ],
+  "include": [
+    "app/**/*.ts",
+    "bin/*.ts",
+    "bot/**/*.ts",
+    "examples/**/*.ts",
+    "scripts/**/*.ts",
+    "src/**/*.ts",
+    "src/wechaty-bro.js",
+    "tests/**/*.spec.ts",
+  ],
+}
